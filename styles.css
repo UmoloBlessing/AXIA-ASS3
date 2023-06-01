@@ -1,0 +1,140 @@
+body {
+    background-color: #0F172A;
+    display: flex;
+    margin: 100px 200px;
+    gap: 8rem;
+    font-family: "Poppins", sans-serif;
+overflow: hidden;}
+
+
+
+#image1 {
+    border-radius: 20px;
+}
+
+.section2 {
+    margin-top: -40px;
+}
+
+h1 {
+    color: white;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.p1 {
+    font-size: 20px;
+    color: #94A3B8;
+    width: 450px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 435px;
+    height: 40px;
+    background-color: #1E293B;
+    border-radius: 35px;
+    margin-bottom: 40px;
+}
+
+#google {
+    width: 15px;
+    height: 15px;
+
+}
+
+span {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+#google, span {
+    margin: 10px 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+label {
+    color: #E4E4E7;
+}
+
+#input{
+    background-color: #0F172A;
+    width: 435px;
+    height: 45px;
+    border: 2px solid #1E293B;
+    border-radius: 25px;
+    
+}
+
+input::placeholder {
+    color: #94A3B8;
+}
+
+.remember {
+    font-size: 12px;
+}
+
+.btn2 {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 10px 35px;
+    border: 2px solid #2563EB;
+    margin: 20px auto;
+}
+
+.p2 {
+    color: #64748B;
+    font-size: 14px;
+}
+
+.container {
+    display: block;
+    position: relative;
+  padding-left: -35px;
+  cursor: pointer;
+  font-size: 15px;
+  user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: -10px;
+    left: -7px;
+    height: 15px;
+    width: 15px;
+    background-color: #0F172A;
+    border: 2px solid #334155;
+    border-radius: 5px;
+  }
+
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+.remember {
+    margin-left: 30px;
+}
+
